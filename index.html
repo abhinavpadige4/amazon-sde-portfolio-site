@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon SDE Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Amazon SDE</h1>
+                <p class="tagline">Software Development Engineer | Distributed Systems & AWS Specialist</p>
+                <button id="theme-toggle" class="btn-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Software Development Engineer with extensive experience in building scalable distributed systems and leveraging AWS cloud services to solve complex technical challenges. My expertise lies in designing high-performance architectures, optimizing system performance, and delivering robust solutions that scale to millions of users.</p>
+                    <p>With a strong foundation in computer science principles and hands-on experience in AWS ecosystem, I specialize in creating resilient, cost-effective systems that drive business value while maintaining the highest standards of reliability and security.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Amazon SDE Profile" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Distributed Systems</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-label">Microservices Architecture</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">API Design & Development</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">Data Consistency & Replication</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">Load Balancing & Caching</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 88%"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AWS Expertise</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-label">EC2, Lambda, ECS</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">S3, RDS, DynamoDB</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 89%"></div>
+                            </div>
+                            <span class="skill-percent">89%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">CloudFormation, CDK</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">CloudWatch, X-Ray</span>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 87%"></div>
+                            </div>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.png" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3>Scalable E-Commerce Platform</h3>
+                        <p class="project-description">Built a microservices-based e-commerce platform handling 10K+ RPM with 99.9% uptime</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Users Served</span>
+                                <span class="metric-value">500K+</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Response Time</span>
+                                <span class="metric-value">120ms avg</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Cost Savings</span>
+                                <span class="metric-value">40% reduction</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java Spring Boot</span>
+                            <span>AWS ECS</span>
+                            <span>Redis</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                        </div>
+                        <a href="#" class="btn-project">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.png" alt="Real-time Analytics Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-time Analytics Dashboard</h3>
+                        <p class="project-description">Designed a streaming analytics platform processing 1M+ events/second with sub-second latency</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Throughput</span>
+                                <span class="metric-value">1M+ EPS</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Latency</span>
+                                <span class="metric-value"><50ms p99</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Accuracy</span>
+                                <span class="metric-value">99.95%</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Apache Kafka</span>
+                            <span>AWS Kinesis</span>
+                            <span>Apache Flink</span>
+                            <span>Elasticsearch</span>
+                            <span>Grafana</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="#" class="btn-project">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.png" alt="Serverless API Gateway">
+                    </div>
+                    <div class="project-content">
+                        <h3>Serverless API Gateway</h3>
+                        <p class="project-description">Implemented a secure, scalable API gateway serving 5M+ daily requests with zero-downtime deployments</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Daily Requests</span>
+                                <span class="metric-value">5M+</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Uptime</span>
+                                <span class="metric-value">99.95%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Cost Efficiency</span>
+                                <span class="metric-value">60% lower</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>AWS API Gateway</span>
+                            <span>Lambda</span>
+                            <span>CloudFront</span>
+                            <span>Cognito</span>
+                            <span>WAF</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <a href="#" class="btn-project">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project4.png" alt="Data Pipeline & ETL">
+                    </div>
+                    <div class="project-content">
+                        <h3>Enterprise Data Pipeline</h3>
+                        <p class="project-description">Architected a fault-tolerant ETL pipeline processing 10TB+ daily data with exactly-once semantics</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Data Volume</span>
+                                <span class="metric-value">10TB+/day</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Processing Time</span>
+                                <span class="metric-value"><15 min</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Reliability</span>
+                                <span class="metric-value">99.9%</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Apache Spark</span>
+                            <span>AWS Glue</span>
+                            <span>S3</span>
+                            <span>Redshift</span>
+                            <span>Airflow</span>
+                            <span>Scala</span>
+                        </div>
+                        <a href="#" class="btn-project">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Senior Software Development Engineer</h3>
+                        <p class="company">Amazon Web Services</p>
+                        <p class="duration">Jan 2022 - Present</p>
+                        <ul>
+                            <li>Led architecture and development of distributed caching layer serving 100M+ requests/day</li>
+                            <li>Optimized database query performance by 65% through intelligent indexing and caching strategies</li>
+                            <li>Mentored 5 junior engineers in AWS best practices and distributed systems principles</li>
+                            <li>Reduced infrastructure costs by 30% through resource optimization and reserved instance utilization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer II</h3>
+                        <p class="company">Amazon Retail</p>
+                        <p class="duration">Mar 2020 - Dec 2021</p>
+                        <ul>
+                            <li>Developed and maintained high-traffic inventory management system processing 50K+ transactions/hour</li>
+                            <li>Implemented event-driven architecture using AWS SQS and SNS for loose coupling</li>
+                            <li>Improved system reliability from 95% to 99.8% through chaos engineering and automated failover</li>
+                            <li>Collaborated with cross-functional teams to deliver features 40% faster than estimates</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer I</h3>
+                        <p class="company">Amazon Advertising</p>
+                        <p class="duration">Jun 2018 - Feb 2020</p>
+                        <ul>
+                            <li>Built real-time bidding platform handling 2M+ bid requests/second with <10ms latency</li>
+                            <li>Designed and implemented A/B testing framework for ad performance optimization</li>
+                            <li>Reduced ad serving costs by 25% through intelligent load balancing and resource allocation</li>
+                            <li>Participated in on-call rotation and incident response for critical production systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-envelope"></i> amazon.sde@example.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Seattle, WA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/theme.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
